@@ -1,0 +1,27 @@
+.item-1 {
+  background-color: aquamarine;
+}
+.item-2 {
+  background-color: lightpink;
+}
+.item-3 {
+  background-color: lightgreen;
+}
+.item-4 {
+  background-color: lightskyblue;
+}
+.item-5 {
+  background-color: lightyellow;
+}
+.item-6 {
+  background-color: lightslategrey;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 300px 300px;
+  row-gap: 50px;
+  column-gap: 100px;
+  background-color: red;
+}
