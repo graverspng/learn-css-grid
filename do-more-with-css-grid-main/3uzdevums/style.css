@@ -1,3 +1,48 @@
 :root {
   font-family: sans-serif;
 }
+
+.kvadrats {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  
+}
+.mini-kvadrats {
+  width: 150px;
+  height: 150px;
+  background-color: yellow;
+}
+
+.apelsins {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.abols {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+}
+
+.flix {
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexer {
+  width: 150px;
+  height: 150px;
+  background-color: pink;
+}
