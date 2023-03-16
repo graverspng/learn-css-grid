@@ -5,7 +5,9 @@
   kādas vēlas būt katrs no tekstiem 1. rindā.
   Kopā ir 2 rindas un tās aizņem tieši tik daudz vietas,
   cik garākajam tekstam vajadzīgs.*/
-
+  display: grid;
+  grid-template-columns: max-content min-content minmax(400px, 1fr);
+  grid-template-rows: auto;
   gap: 10px;
 }
 
